@@ -58,6 +58,7 @@ else:
 
 UL_PowerBi = pd.read_excel('Ul_PowerBI.xlsx')
 Vehicle_Report = pd.read_csv('VehicleReport.csv')
+Report_ul = pd.read_csv('Report.csv')
 blackout = pd.read_csv("Report-Blackout.csv")
 
 page1 = pd.read_csv('FuelReportPage1.csv' ,encoding = "ISO-8859-1", engine='python' )
@@ -104,10 +105,7 @@ Car_Brands = ['honda',
 'chrysler'
 ]
 
-#Cleaning
-report = report[(report['Make']).isin(Car_Brands)]
-report = report[(report['Vehicle_Status'] != "Active") &
-                (report['Vehicle_Status'] != "Service Only")]
+
 
 report = sqldf("""
                   SELECT 
@@ -119,33 +117,46 @@ report = sqldf("""
                   report.Make,
                   report.Model,
                   report.VIN,
-                  report.Azuga_Device,
                   report.Plate_Number,
                   report.Full_Name,
                   report.Employee_Number,
-                  report.Vehicle_Status,
-                  report.Blackout
+                  report.Vehicle_Status
                   FROM Branch_Area
                   LEFT JOIN report
                   ON  Branch_Area.Branch_ID = report.Branch 
 """)
 
+
+report = report[(report['Make']).isin(Car_Brands)]
+report = report[(report['Vehicle_Status'] == "Active") |
+                (report['Vehicle_Status'] == "Service Only")]
+
+
 #Getting Role from page1 Table
-role = pd.merge(report.astype(str), page1.astype(str), how = 'inner', left_on = "Employee_Number", right_on = "Employee Number" )
-report['Role'] = role["Job Title"]
-#Getting Azuga Device
+report = pd.merge(report.astype(str), page1[['Job Title','Employee Number']].astype(str), how = 'left', left_on = "Employee_Number", right_on = "Employee Number" ).drop('Employee_Number', axis = 1)
+report = pd.merge(report.astype(str), Vehicle_Report[['Device Serial Number', 'VIN']].astype(str), how = 'left', on = "VIN" )
 
-Azuga_device = pd.merge(report.astype(str), Vehicle_Report.astype(str), how = 'inner', on = "VIN" )
+report['Device Serial Number'] = report['Device Serial Number'].astype(str).apply(lambda x: x.replace('.0',''))
+report = pd.merge(report.astype(str), blackout[['Blackout since', 'Device S/N']].astype(str), how='left', left_on="Device Serial Number", right_on="Device S/N").drop('Device S/N', axis=1)
 
-Azuga_device['Device Serial Number'] = Azuga_device['Device Serial Number'].astype(str).apply(lambda x: x.replace('.0',''))
-print(Azuga_device['Device Serial Number'])
 
-report["Azuga_device"] = Azuga_device['Device Serial Number']
+cover_filter = []
 
-blackout_df = pd.merge(report.astype(
-    str), blackout.astype(str), how='inner', left_on = "Azuga_device", right_on = "Device S/N")
+for i in range (len(report['Blackout since'])):
+    if ((report['Blackout since'][i] != None and report['Blackout since'][i] != "Not Activated") and report['Device Serial Number'][i] != "nan"):
+        cover_filter.append(1)
+    else:
+        cover_filter.append(0)
 
-report["Blackout"] = blackout_df["Blackout since"]
-print(blackout_df)
 
-report.to_csv("test.csv")
+
+report['Covered'] = cover_filter
+
+report = pd.merge(report.astype(str), Report_ul[['Miles Driven', 'VIN']].astype(str), how='left', on="VIN")
+
+
+#report['Miles Driven'] = report['Miles Driven'].astype(int)
+print(report)
+
+
+report.to_csv("test2.csv", index = False)
