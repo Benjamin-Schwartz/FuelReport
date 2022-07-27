@@ -1,0 +1,241 @@
+Location,VIN,Vehicle Name,Make,Status,Compliance,Calibration Version,IsActive,Economy,Idle Reduction,Reverse Speed Li,Spark Advance,Speed Limit,TCU Economy,TCU Speed Limit
+2 - Birmingham AL,1FTYE1Y83MKA07443,91988,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+4 - Houston TX,1FT7X2B66NED00823,99156,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+4 - Houston TX,1FTYE1Y80MKA07478,91949,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+4 - Houston TX,1FTYE1Y82MKA07479,91946,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+4 - Houston TX,1FTYE1Y89MKA07480,91944,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+4 - Houston TX,NM0LS7E25M1500923,91868,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+5 - Atlanta GA,1FTYE1Y85MKA07444,91984,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+5 - Atlanta GA,1FTYE1Y8XMKA07911,91986,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+5 - Atlanta GA,1FTYR1ZMXKKB49947,500164,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+7 - Dallas TX,1FTYR1YM4JKB17057,93695,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Maximum,85 MPH,No Option Available,No Option Available
+7 - Dallas TX,1FTYR1YM7KKB50989,500167,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Maximum,85 MPH,No Option Available,No Option Available
+8 - Chatsworth CA,1FTYE1Y85MKA07914,91994,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+8 - Chatsworth CA,1FTYE1Y87MKA07915,91989,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,1FTYE1Y80MKA07917,91995,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,1FTYE1Y81MKA07487,91992,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,1FTYE1Y83MKA07488,91954,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,1FTYE1Y89MKA07916,91998,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,1FTYE1Y8XMKA07486,91951,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+11 - Anaheim CA,NM0LS7E25M1500937,91899,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+13 - Mobile AL,1FTYE1Y82MKA38506,93737,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+13 - Mobile AL,NM0LS7E22M1500801,91881,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,1FDWE3FS8HDC24770,77221S,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,1FTYE1Y81MKA07912,91917,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,1FTYE1Y86MKA07467,91958,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E21M1500787,91864,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E22M1500930,91894,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E23M1500791,91889,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E25M1500789,91853,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E26M1500770,91847,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+16 - Chicago IL,NM0LS7E2XM1500819,91872,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+18 - Stockton CA,1FTYE1Y85MKA07492,91955,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+18 - Stockton CA,NM0LS7E27M1500938,91900,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+19 - San Jose CA,1FTYE1Y81MKA07490,91990,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+19 - San Jose CA,1FTYE1Y82MKA07918,92001,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+19 - San Jose CA,NM0LS7E21M1500790,91891,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+20 - Evansville IN,NM0LS7E20M1500778,91856,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+20 - Evansville IN,NM0LS7E20M1500800,91882,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+20 - Evansville IN,NM0LS7E25M1500811,91876,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+22 - Hayward CA,1FTYR1YM6KKB35125,500168,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Maximum,No Option Available,Disabled,85 MPH,No Option Available,No Option Available
+22 - Hayward CA,NM0LS7E29M1500794,91887,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+23 - Milwaukee WI,1FTYE1Y88MKA07471,91909,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+23 - Milwaukee WI,NM0LS7E27M1500812,91875,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Enabled,No Option Available,85 MPH,No Option Available,No Option Available
+23 - Milwaukee WI,NM0LS7E2XM1500772,91849,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Enabled,No Option Available,85 MPH,No Option Available,No Option Available
+24 - Madison WI,1FTYE1Y80MKA07464,91959,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+24 - Madison WI,NM0LS7E24M1500931,91895,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+26 - Bakersfield CA,1FTYE1Y83MKA07913,91997,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+28 - Toledo OH,1FTYE1Y87MKA07476,91963,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Disabled,No Option Available,No Option Available,90 MPH,No Option Available,No Option Available
+28 - Toledo OH,NM0LS7E20M1500795,91886,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Disabled,Disabled,No Option Available,90 MPH,No Option Available,No Option Available
+29 - Greenville SC,1FTYE1Y82MKA07448,91948,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+29 - Greenville SC,1FTYE1Y84MKA07449,91939,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+30 - Montgomery AL,1FTYE1Y87MKA07431,91923,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+36 - Fresno CA,1FTYE1Y82MKA07921,91991,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,75 MPH,No Option Available,No Option Available
+38 - Sacramento CA,NM0LS7E2XM1500805,91879,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+40 - Fairfield CA,1FTYE1Y83MKA07491,91953,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+47 - Natick MA,1FTYE1Y84MKA07421,91920,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+47 - Natick MA,1FTYE1Y86MKA07422,91933,Ford,DERIVE OPTIMIZED,1,2.268FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+47 - Natick MA,1FTYE1Y88MKA07423,91932,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+47 - Natick MA,1FTYE1Y8XMKA07424,91970,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+47 - Natick MA,NM0LS7E25M1500808,91878,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+47 - Natick MA,NM0LS7E2XM1500822,91869,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+49 - Little Rock AR,1FTYE1Y88MKA07454,91915,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+49 - Little Rock AR,1FTYE1Y8XMKA07455,91964,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+52 - Champaign IL,1FTYE1Y81MKA07473,91961,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+53 - Peoria IL,1FTYE1Y82MKA07465,91912,Ford,FACTORY SETTINGS,0,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+53 - Peoria IL,NM0LS7E24M1500797,91885,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+53 - Peoria IL,NM0LS7E28M1500771,91848,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+54 - Charleston WV,1FTYE1Y83MKA07474,91916,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+54 - Charleston WV,1FTYE1Y85MKA07475,91960,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+57 - Buffalo NY,1GAZGPFF0G1180858,88509,Chevrolet,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+57 - Buffalo NY,NM0LS7F79F1215428,88511,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+58 - Wichita KS,1FTNE1EW4DDB10946,59123,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,Disabled,85 MPH,No Option Available,85 MPH
+59 - Connecticut CT,1FTYE1Y83MKA07426,91931,Ford,DERIVE OPTIMIZED,1,2.268FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+59 - Connecticut CT,1FTYE1Y85MKA07430,91926,Ford,DERIVE OPTIMIZED,1,2.268FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,84 MPH,No Option Available,No Option Available
+59 - Connecticut CT,NM0LS7E24M1500783,91861,Ford,DERIVE OPTIMIZED,1,2.268FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,80 MPH,No Option Available,No Option Available
+60 - Hawaii HI,1FTYE1Y84MKA07919,91999,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+60 - Hawaii HI,NM0LS7E29M1500942,91903,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,35 MPH,No Option Available,No Option Available
+65 - Chicopee MA,1FTYE1Y82MKA07417,91925,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+65 - Chicopee MA,1FTYE1Y82MKA07420,91976,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+65 - Chicopee MA,1FTYE1Y84MKA07418,91935,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+65 - Chicopee MA,NM0LS7E26M1487471,95107,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+65 - Chicopee MA,NM0LS7E28M1500799,91890,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+68 - Nashville TN,NM0LS7E25M1500775,91852,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+70 - Redlands CA,1FTYE1Y85MKA07489,91952,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+72 - San Antonio TX,1FTYE1Y80MKA07481,91940,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+72 - San Antonio TX,1FTYR1ZM5KKB34465,500524,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+75 - Orlando FL,1FTYE1Y81MKA07456,91983,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+76 - Austin South TX,NM0LS7E29M1500780,91858,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+77 - Salt Lake City UT,NM0LS7E22M1500796,91884,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Minimum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+79 - Lafayette LA,NM0LS7E23M1500788,91865,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,80 MPH,No Option Available,No Option Available
+82 - Beaumont TX,NM0LS7E23M1500774,91850,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+85 - Ogden UT,1FTYE1Y86MKA07484,91957,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+87 - Columbus OH,1FTYE1Y8XMKA07469,91914,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,125 MPH,No Option Available,No Option Available
+87 - Columbus OH,NM0LS7E26M1500817,91873,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,125 MPH,No Option Available,No Option Available
+89 - Minneapolis MN,NM0LS7E29M1500813,91874,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+91 - McAllen TX,1FTYE1Y82MKA07482,91945,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+91 - McAllen TX,1FTYE1Y89MKA38549,93741,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+91 - McAllen TX,NM0LS7E21M1500773,91851,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,80 MPH,No Option Available,No Option Available
+94 - Asheville NC,NM0LS7E28M1500933,91897,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+96 - Billings MT,1FTYE1Y8XMKA38575,93755,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+97 - Denver CO,1FTYE1Y88MKA07485,91956,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,79 MPH,No Option Available,No Option Available
+98 - Norfolk VA,1FTYE1Y87MKA07459,91936,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+99 - Richmond VA,1FTKE1Y83LKA70837,93738,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+99 - Richmond VA,1FTYE1Y83MKA07460,91919,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+99 - Richmond VA,1FTYE1Y85MKA07461,91921,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+99 - Richmond VA,1FTYE1Y87MKA07462,91918,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+99 - Richmond VA,1GCWGAFF0H1352752,352752,Chevrolet,DERIVE OPTIMIZED,1,2.170FGME,Yes,Maximum,Maximum,No Option Available,Maximum,85 MPH,Maximum,85MPH
+99 - Richmond VA,1GTW7AFG2J1903133,90313R,GMC,DERIVE OPTIMIZED,1,2.170FGME,Yes,Maximum,Maximum,No Option Available,Maximum,85 MPH,Maximum,85MPH
+99 - Richmond VA,NM0LS7E21M1500823,91866,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+101 - Fisherville VA,1FTYE1Y89MKA07463,91967,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+103 - Roanoke VA,1GCWGAFF0H1352847,352847,Chevrolet,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+103 - Roanoke VA,1GTW7AFG0J1902370,90237R,GMC,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+106 - Albany NY,1FTYR1ZM1KKB20756,500523,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+107 - Charlotte NC,1FTYE1Y87MKA07445,91987,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+108 - Charleston SC,1FTYE1Y80MKA07447,91980,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+108 - Charleston SC,NM0LS7E22M1500779,91857,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+109 - New Jersey NJ,1FTYE1Y88MKA07437,91924,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+109 - New Jersey NJ,NM0LS7E2XM1500786,91863,Ford,RETURNED TO FACTORY SETTINGS,0,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,80 MPH,No Option Available,No Option Available
+110 - Jackson MS,1FTYE1Y86MKA07453,91941,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+110 - Jackson MS,NM0LS7E22M1498998,95537,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+110 - Jackson MS,NM0LS7E2XM1500769,91846,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+111 - Providence RI,1FTYE1Y85MKA07413,91930,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+111 - Providence RI,1FTYE1Y87MKA07414,91969,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+113 Pittsburgh PA,1FTYE1Y86MKA07470,91962,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+116 - Cleveland OH,1FTYE1Y88MKA07468,91911,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+118 - Fairfield NJ,1FTYE2CG8HKA64716,85267,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+119 - Plainview NY,1FTYE1Y84MKA07435,91938,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+119 - Plainview NY,1FTYE1Y86MKA07436,91974,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+119 - Plainview NY,NM0LS7E26M1500929,91893,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+123 - Franklin MA,1FTYE1Y80MKA07433,91978,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+123 - Franklin MA,1FTYE1Y82MKA07434,91973,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+123 - Franklin MA,1FTYE1Y89MKA07432,91937,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+123 - Franklin MA,NM0LS7E22M1487354,94082,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+124 - Newington CT,1FTYE1Y81MKA07425,91922,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+124 - Newington CT,1FTYE1Y85MKA07427,91968,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+124 - Newington CT,1FTYE1Y87MKA07428,91975,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Minimum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+124 - Newington CT,NM0LS7E29M1500925,91867,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,80 MPH,No Option Available,No Option Available
+124 - Newington CT,NM0LS7E2XM1490423,93770,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,80 MPH,No Option Available,No Option Available
+126 - Iowa City IA,1FTYE1Y84MKA07466,91910,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+129 - Indianapolis IN,1FTYE1Y8XMKA07472,91913,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+129 - Indianapolis IN,NM0LS7E22M1500782,91860,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+129 - Indianapolis IN,NM0LS7E25M1500940,91901,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+131 - New York City NY,1FTYE1Y8XMKA07438,91928,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+131 - New York City NY,NM0LS7E26M1500932,91896,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+132 - Fort Lauderdale FL,NM0LS7E27M1500776,91854,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+133 - Allentown PA,1FTYE1Y81MKA07442,91972,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+133 - Allentown PA,1FTYE1Y8XMKA07441,91966,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+140 - Portland OR,1FTYE1Y84MKA38569,93753,Ford,FACTORY SETTINGS,0,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+140 - Portland OR,1FTYE1Y86MKA07923,91993,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+140 - Portland OR,NM0LS7E26M1500798,91883,Ford,FACTORY SETTINGS,0,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+142 - Raleigh NC,1FTYE1Y89MKA07446,91950,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+142 - Raleigh NC,1FTYR1ZM0KKB02040,500169,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+142 - Raleigh NC,1FTYR1ZM8KKB34797,500166,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYE1Y83MKA07457,91942,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYE1Y84MKA38507,93739,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYR1YM0JKA46469,93686,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Disabled,80 MPH,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYR1YM9JKA46468,A46468,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Maximum,80 MPH,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYR1ZM5HKA77676,A77676,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYR1ZM7HKA69823,A69823,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+143 - St Petersburg FL,1FTYR1ZM7JKA88796,93685,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+143 - St Petersburg FL,NM0LS7E21M1500935,91898,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,80 MPH,No Option Available,No Option Available
+145 - Columbia SC,NM0LS7E27L1435488,90960,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+146 - Augusta GA,NM0LS7E27M1500924,91871,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,90 MPH,No Option Available,No Option Available
+147 - Macon GA,1FTYE1Y80MKA07450,91947,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Minimum,Disabled,No Option Available,No Option Available,82 MPH,No Option Available,No Option Available
+148 - Savannah GA,1FTYE1Y82MKA07451,91982,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+149 - Baltimore MD,1FTYE1Y85MKA07458,91965,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,75 MPH,No Option Available,No Option Available
+149 - Baltimore MD,1FTYE1ZM0HKA20443,83171,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Disabled,70 MPH,No Option Available,No Option Available
+149 - Baltimore MD,1FTYE9ZM3GKB06214,83172,Ford,RETURNED TO FACTORY SETTINGS,1,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+149 - Baltimore MD,NM0LS7E23M1490425,93769,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,75 MPH,No Option Available,No Option Available
+151 - Jacksonville FL,NM0LS7E20M1500781,91859,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+158 - Harrisburg PA,1FTYE1Y88MKA07440,91927,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+158 - Harrisburg PA,NM0LE6E77E1155229,155229,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,No Option Available,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+161 - St Louis MO,1FDWE3FLXGDC16838,67484S,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Maximum,No Option Available,Disabled,85 MPH,No Option Available,85 MPH
+161 - St Louis MO,1FTYR2CM3GKB22031,B22031,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Disabled,No Option Available,Disabled,85 MPH,No Option Available,No Option Available
+162 - Bangor ME,NM0LS7E29L1435783,90102,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+163 - Portland ME,1FTYE1Y89MKA07429,91977,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+164 - Alaska AK,1GTS8AF40E1109383,10938R,GMC,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+165 - Olympia WA,1FTYE1Y84MKA07922,92000,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+166 - Flint MI,NM0LS7E23L1464454,93032,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,Disabled,No Option Available,85 MPH,No Option Available,No Option Available
+168 - Chattanooga TN,NM0LS7E28M1500804,91880,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+175 - Oklahoma City OK,1FM5K7D87HGB71304,B71304,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+175 - Oklahoma City OK,1FTYE1Y86MKA38539,93757,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+175 - Oklahoma City OK,1FTYE1ZM4HKA60797,A60797,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+178 - Santa Barbara CA,NM0LS7E28M1496866,95245,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,80 MPH,No Option Available,No Option Available
+181 - Bronx NY,1FTYE1Y81MKA07439,91979,Ford,DERIVE OPTIMIZED,1,2.267FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+186 - Forth Worth TX,1FTMF1C88GKE54051,E54051,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+186 - Forth Worth TX,1FTMF1CB4KKD33330,84794,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+189 - Toledo Access OH,1FTFW1ET2DFC93985,85906,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+189 - Toledo Access OH,1GDGG31C781913814,913814,GMC,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+189 - Toledo Access OH,1GDHG31UX41905388,905388,GMC,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+202 - Ft Myers FL,NM0LS7E27M1500941,91902,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+204 - Baton Rouge LA,1FTYE1Y84MKA07452,91981,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+204 - Baton Rouge LA,1FTYE1Y89MKA07477,91985,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+215 - San Angelo TX,1FTYE1Y85MKA38547,93740,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+216 - Brownwood TX,1FTYR1YM2HKA91584,A91584,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,Disabled,85 MPH,No Option Available,No Option Available
+217 - Corpus Christi TX,1FTNE1ZM7FKA58364,A58364,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Disabled,75 MPH,No Option Available,No Option Available
+217 - Corpus Christi TX,NM0LS7E22K1422128,93689,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+217 - Corpus Christi TX,NM0LS7E27M1500793,91888,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+217 - Corpus Christi TX,NM0LS7S22N1506667,,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,85 MPH,No Option Available,No Option Available
+218 - San Antonio West TX,1FTYE1Y84MKA38538,93742,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+219 - Arlington TX,1FTYE1Y87MKA38534,93743,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+219 - Arlington TX,1FTYE1Y89MKA38535,93744,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+220 - Temple TX,1FTYE1Y83MKA38546,93745,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,82 MPH,No Option Available,No Option Available
+220 - Temple TX,1FTYE1Y84MKA07483,91943,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+220 - Temple TX,1FTYR1ZM6JKA88997,93690,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Disabled,82 MPH,No Option Available,No Option Available
+221 Houston West TX,1FTYE1Y80MKA38536,93746,Ford,FACTORY SETTINGS,1,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,1FTYE1Y82MKA38537,93747,Ford,FACTORY SETTINGS,1,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,1FTYR1ZM8KKA89103,500165,Ford,FACTORY SETTINGS,1,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,NM0LS7E21K1386142,93691,Ford,FACTORY SETTINGS,1,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,NM0LS7E24M1500928,91892,Ford,FACTORY SETTINGS,1,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,NM0LS7E2XM1500934,91905,Ford,FACTORY SETTINGS,1,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+221 Houston West TX,NM0LS7S28N1506673,,Ford,RETURNED TO FACTORY SETTINGS,1,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+223 - Austin North TX,1FTYE1Y86MKA38542,93748,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+223 - Austin North TX,1FTYE1Y88MKA38543,93749,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+226 - Portland North OR,1FTYE1Y80MKA38570,93754,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+232 - San Antonio North TX,1FTYR1ZM5HKB00146,B00146,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,Disabled,80 MPH,No Option Available,No Option Available
+237 - Post Falls ID,1FTYE1Y86MKA38573,93751,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,80 MPH,No Option Available,No Option Available
+244 - Seattle WA,1FTYE1Y82MKA38571,93756,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+244 - Seattle WA,NM0LS7E20M1500943,91904,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+244 - Seattle WA,NM0LS7E23M1500810,91877,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Maximum,Enabled,No Option Available,85 MPH,No Option Available,No Option Available
+245 - Eugene OR,NM0LS7E29M1500777,91855,Ford,FACTORY SETTINGS,0,1.001FRWVA,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+250 - Albany Access NY,1FTYR1ZM1JKB37930,B37930,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+253 - Mount Vernon WA,1FTYE1Y84MKA38572,93750,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+254 - Kennewick WA,1FTYE1Y88MKA38574,93752,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+255 - Concord NH,1GTN2TEC3EZ321814,321814,GMC,DERIVE OPTIMIZED,1,2.170FGME,Yes,No Option Available,Disabled,No Option Available,No Option Available,100 MPH,Disabled,No Option Available
+255 - Concord NH,1GTZ7GFG1G1208926,208926,GMC,DERIVE OPTIMIZED,1,2.170FGME,Yes,Disabled,Disabled,No Option Available,Disabled,100 MPH,Disabled,Disabled
+255 - Concord NH,NM0LS7E26M1500784,91862,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Maximum,Disabled,Enabled,No Option Available,75 MPH,No Option Available,No Option Available
+256 - Parma OH,1FTNE2EW5EDA10099,A10099,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+256 - Parma OH,1FTYR1YM9KKA55804,A55804,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+258 - Columbus West OH,1FTNE2EW4CDA83591,,Ford,DERIVE OPTIMIZED,1,2.266FFDE,Yes,Disabled,Disabled,No Option Available,Disabled,90 MPH,No Option Available,75 MPH
+258 - Columbus West OH,1FTYR1YM4KKB51095,501172,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+258 - Columbus West OH,1FTYR1ZM3KKB21438,501173,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+258 - Columbus West OH,1FTYR2XMXJKA10540,A10540,Ford,FACTORY SETTINGS,0,2.266FFDE,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+258 - Columbus West OH,1FTYR2ZM8JKA71818,A71818,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+258 - Columbus West OH,1GTW7FCF0F1904524,,GMC,DERIVE OPTIMIZED,1,2.170FGME,Yes,Minimum,Medium,No Option Available,Minimum,70 MPH,Medium,Disabled
+258 - Columbus West OH,1GTW7FCF1F1903320,85468,GMC,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+265 - Gulf Breeze FL,NM0LS6E20L1439702,439702,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+265 - Gulf Breeze FL,NM0LS6E24L1447026,447026,Ford,FACTORY SETTINGS,0,STOCK,Yes,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available,No Option Available
+122 - Woburn,1FTYE1Y80MKA07416,91971,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+122 - Woburn,1FTYE1Y86MKA07419,91929,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
+122 - Woburn,1FTYE1Y89MKA07415,91934,Ford,DERIVE OPTIMIZED,1,1.001FRWVA,Yes,Maximum,Maximum,No Option Available,No Option Available,85 MPH,No Option Available,No Option Available
