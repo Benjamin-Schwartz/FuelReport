@@ -68,7 +68,7 @@ Vehicle_Report = pd.read_csv('../files/VehiclesReport.csv')
 Report_ul = pd.read_csv('../files/Report.csv')
 blackout = pd.read_csv("../files/Report-Blackout.csv")
 export = pd.read_csv("../files/Export.csv")
-Azuga_trips = pd.read_csv("../files/TRIPS_REPORT-182356647dc.xlsx.csv",encoding = "ISO-8859-1", engine='python' )
+Azuga_trips = pd.read_csv("../files/test.csv",encoding = "ISO-8859-1", engine='python' )
 page1 = pd.read_csv('../files/Page1.csv' ,encoding = "ISO-8859-1", engine='python' )
 NSM_table = pd.read_csv('../files/National Seating Mobility - NSM.csv')
 
@@ -154,7 +154,7 @@ cover_filter = []
 
 #If blackout is Activated and it has a Serial Number then it is Covered otherwise it is Not
 for i in range (len(report['Blackout since'])):
-    if ((report['Blackout since'][i] != None and report['Blackout since'][i] != "Not Activated") and report['Device Serial Number'][i] != "nan"):
+    if ((str(report['Blackout since'][i]) == "nan") and report['Device Serial Number'][i] != "nan"):
         cover_filter.append(1)
     else:
         cover_filter.append(0)
@@ -168,7 +168,6 @@ report['Covered'] = cover_filter
 #This is unclean data It will create duplicates because each VIN has multiple trips associated with it.
 #Data also will contain commas and null valeus for trips with no miles
 report = pd.merge(report.astype(str), Report_ul[['Miles Driven', 'VIN']].astype(str), how='left', on="VIN")
-
 #Cleaning data getting rid of commas and converting the data to numbers for arithmetic
 report['Miles Driven'] = report['Miles Driven'].str.replace(',','')
 report['Miles Driven'] = report['Miles Driven'].fillna(0)
@@ -189,23 +188,51 @@ columns_to_group = list(report.columns.difference(['Miles Driven']))
 #VIN  NAME MILES
 #123  BOB  2000
 #234 ALICE 500
-
 report = report.groupby(columns_to_group).sum().reset_index()
 
+#Azuga Distance
+#Azuga Idle Time
+#Azuga Trip Time
 #Getting the miles driven from Azuga Data
-report = pd.merge(report.astype(str), Azuga_trips[['TOTAL DISTANCE TRAVELED (MILES)', 'VIN']].astype(str), how='left', on="VIN")
+# Azuga_trips.rename(columns={'vehicleName': 'VIN'}, inplace=True)
+Azuga_trips['idleTime'] = Azuga_trips['idleTime'].str.split(' ').str[0]
 
-#Rename column to Azuga Mileage and clean data same thing as above
-#Convert numbers to floats and keep decimals though because Azuga provided decimal for their data whereas Union Leasing did not
-report.rename(columns = {'TOTAL DISTANCE TRAVELED (MILES)':'Azuga Mileage'}, inplace = True)
-report['Azuga Mileage'] = report['Azuga Mileage'].str.replace(',','')
+report = pd.merge(report.astype(str), Azuga_trips[['idleTime', 'VIN']].astype(str), how='left', on = 'VIN')
+report.rename(columns = {'idleTime':'Azuga Mileage'}, inplace = True)
 report['Azuga Mileage'] = report['Azuga Mileage'].fillna(0)
 report['Azuga Mileage'] = report['Azuga Mileage'].astype(float)
 
 columns_to_group = report.columns.difference(['Azuga Mileage'])
-
 #Remove Duplicates and sum up Azuga Mileage same logic as above see Example above
 report = report.groupby(list(columns_to_group))['Azuga Mileage'].sum().reset_index()
+
+
+Azuga_trips['idleTime'] = Azuga_trips['idleTime'].str.split(
+    ' ').str[0]
+
+report = pd.merge(report.astype(str), Azuga_trips[[
+                  'idleTime', 'VIN']].astype(str), how='left', on='VIN')
+report['idleTime'] = report['idleTime'].fillna(0)
+report['idleTime'] = report['idleTime'].astype(float)
+
+columns_to_group = report.columns.difference(['idleTime'])
+#Remove Duplicates and sum up idleTime same logic as above see Example above
+report = report.groupby(list(columns_to_group))[
+    'idleTime'].sum().reset_index()
+
+
+Azuga_trips['tripTime'] = Azuga_trips['tripTime'].str.split(
+        ' ').str[0]
+
+report = pd.merge(report.astype(str), Azuga_trips[[
+                  'tripTime', 'VIN']].astype(str), how='left', on='VIN')
+report['tripTime'] = report['tripTime'].fillna(0)
+report['tripTime'] = report['tripTime'].astype(float)
+
+columns_to_group = report.columns.difference(['tripTime'])
+#Remove Duplicates and sum up tripTime same logic as above see Example above
+report = report.groupby(list(columns_to_group))[
+    'tripTime'].sum().reset_index()
 
 #Column for miles we are concerned with
 #If not covered get UL Miles otherwise get Azuga Mileage
@@ -220,63 +247,19 @@ for i in range (len(report['Covered'])):
 report['Miles'] = miles
 
 
-#Getting Total Idle Time
-report = pd.merge(report.astype(str), Azuga_trips[['TOTAL IDLE TIME', 'VIN']].astype(str), how='left', on="VIN")
-#Have to convert it to time so that it can be added
-time = pd.DatetimeIndex(report['TOTAL IDLE TIME'])
-time = time.hour * 60 + time.minute + (time.second / 60)
-
-#Adding Total Idle time to the table
-report['TOTAL IDLE TIME'] = time
-
-#Removing Duplicates and adding together all of the time
-columns_to_group = list(report.columns.difference(['TOTAL IDLE TIME']))
-report = report.groupby(columns_to_group)['TOTAL IDLE TIME'].sum().reset_index()
 
 
-#Getting Total Drive Time
-report = pd.merge(report.astype(str), Azuga_trips[['TRIP TIME', 'VIN']].astype(str), how='left', on="VIN")
+#Getting Fuel spend from UL_Report
+Report_ul['Total Amount'] = Report_ul['Total Amount'].str.replace('$', '', regex=False)
+report = pd.merge(report.astype(
+    str), Report_ul[['Total Amount', 'VIN']].astype(str), how='left', on="VIN")
+report['Total Amount'] = report['Total Amount'].fillna(0)
 
-#Converting to pd.DateTimeIndex for simpler arithmetic
-time = pd.DatetimeIndex(report['TRIP TIME'])
-time = time.hour * 60 + time.minute + (time.second / 60)
-
-#Adding time to the table
-report['TRIP TIME'] = time
-
-#Removing Dplicates and adding TRIP TIME
-columns_to_group = list(report.columns.difference(['TRIP TIME']))
-report = report.groupby(columns_to_group)['TRIP TIME'].sum().reset_index()
-
-
-#Calculating Idle Time and adding it to the table
-report['Idle %'] = report['TOTAL IDLE TIME'] .astype(float) / report['TRIP TIME'].astype(float) * 100
-
-
-#Getting Fuel used for each Vehicle
-report = pd.merge(report.astype(str), Azuga_trips[['FUEL USED (GALLONS)', 'VIN']].astype(str), how='left', on="VIN")
-
-#Sanitizing data converting it to flaots
-report['FUEL USED (GALLONS)'] = report['FUEL USED (GALLONS)'].fillna(0)
-report['FUEL USED (GALLONS)'] = report['FUEL USED (GALLONS)'].astype(float)
-
-
-#Removing Duplicates and adding Fuel Used for each vehicle
-columns_to_group = list(report.columns.difference(['FUEL USED (GALLONS)']))
-report = report.groupby(columns_to_group)['FUEL USED (GALLONS)'].sum().reset_index()
-
-#Calculating MPG and appending it to the table
-report['MPG'] = report['Azuga Mileage'].astype(float) / report['FUEL USED (GALLONS)'].astype(float)
-
-
-#Getting VOC based on the VIn for each vehicle
-report = pd.merge(report.astype(str), Azuga_trips[['VOC ($)', 'VIN']].astype(str), how='left', on="VIN")
-report['VOC ($)'] = report['VOC ($)'].fillna(0)
-report['VOC ($)'] = report['VOC ($)'].astype(float)
-
+report['Total Amount'] = report['Total Amount'].astype(float)
 #Removing Duplicate rows and summing VOC
-columns_to_group = list(report.columns.difference(['VOC ($)']))
-report = report.groupby(columns_to_group)['VOC ($)'].sum().reset_index()
+columns_to_group = list(report.columns.difference(['Total Amount']))
+report = report.groupby(columns_to_group)[
+    'Total Amount'].sum().reset_index()
 
 #Getting PPG based on the VIn for each vehicle
 Report_ul['Price Per Unit'] = Report_ul['Price Per Unit'].str.replace('$','', regex= False)
@@ -284,28 +267,18 @@ report = pd.merge(report.astype(str), Report_ul[['Price Per Unit', 'VIN']].astyp
 report['Price Per Unit'] = report['Price Per Unit'].fillna(0)
 
 report['Price Per Unit'] = report['Price Per Unit'].astype(float)
-
 #Removing Duplicate rows and summing VOC
 columns_to_group = list(report.columns.difference(['Price Per Unit']))
 report = report.groupby(columns_to_group)['Price Per Unit'].mean().reset_index()
 
 #Getting eval @ home %
 report = pd.merge(report.astype(str), export[['Eval @ Home %', 'Branch_ID']].astype(str), how = 'left',  on = "Branch_ID" )
-
-
-
-#Creating the csv
-
-report = report.loc[:, ["Branch_ID","Region","ActualRegion","Lease_Id",
- "Year", "Make", "Model", "VIN", "Plate_Number", "Full_Name", 
- "Employee Number", "Job Title", "Device Serial Number", "Blackout since", 
- "Covered", "Miles Driven", "Azuga Mileage", "Miles", "TOTAL IDLE TIME", 
- "Idle %", "MPG", 'Price Per Unit', "VOC ($)", "Eval @ Home %"]]
+report['Eval @ Home %'] = report['Eval @ Home %'].fillna('')
 
 
 eligible = []
 completed = []
-
+5
 nsm_df = NSM_table['Status']
 
 for i in range (len(report['VIN'])):
@@ -325,14 +298,18 @@ for i in range (len(report['VIN'])):
 
 report['Derive completed?'] = completed
 report['Derive eligible?'] = eligible
-report['PPG'] = report['VOC ($)'].astype(float) / (report['Miles Driven'].astype(float) / report['MPG'].astype(float))
 
+print(report['tripTime'])
 
+report['idle %'] = report['tripTime'].astype(float) / report['idleTime'].astype(float)
+# report['PPG'] = report['VOC ($)'].astype(float) / (report['Miles Driven'].astype(float) / report['MPG'].astype(float))
+
+Gallons = (report['Total Amount'].astype(float)) / (report['Price Per Unit'].astype(float))
+report['MPG'] = (report['Miles Driven'].astype(float) / Gallons)
 report = report.loc[:, ["Branch_ID","Region","ActualRegion","Lease_Id",
  "Year", "Make", "Model", "VIN", "Plate_Number", "Full_Name", 
  "Employee Number", "Job Title", "Device Serial Number", "Blackout since", 
- "Covered", "Miles Driven", "Azuga Mileage", "Miles", "TOTAL IDLE TIME", 
- "Idle %", "MPG", 'Price Per Unit', "VOC ($)", 'Derive eligible?', "Derive completed?", "Eval @ Home %"]]
+ "Covered", "Miles Driven", "Azuga Mileage", "Miles", "idleTime", 'idle %', 'MPG', 'Price Per Unit', 'Total Amount', 'Derive eligible?', "Derive completed?", "Eval @ Home %"]]
 
 
 
@@ -347,8 +324,12 @@ report = report.rename(columns = {'Branch_ID':'Branch',
                         'Device Serial Number': 'Azuga Device',
                         'Blackout since': 'Black Out',
                         'Miles Driven': 'UL mileage',
-                        'TOTAL IDLE TIME': 'Idle Minutes',
+                        'idleTime': 'Idle Minutes',
                         'Price Per Unit': 'PPG',
-                        'VOC ($)': 'Fuel Spend'})
+                        'Total Amount': 'Fuel Spend'})
 
-report.to_csv("../Reports/report.csv", index = False)
+report['PPG'] = report['PPG'].str.replace(
+    '0', '', regex=False)
+report = report.replace(np.nan, '', regex=True)
+report = report.replace(['nan'], '', regex=True)
+report.to_csv("../Reports/FuelReport.csv", index = False)
