@@ -1,0 +1,16 @@
+check logic with covered
+Check Miles logic
+
+Tech Minutes/Tech Activity
+Fuel Spend / MPG
+
+What is Ratio
+
+Off-hour
+
+
+
+Derive Complete
+Get Idle Percentage
+
+Replace PPG 0's with blanks
